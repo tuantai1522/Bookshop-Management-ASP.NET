@@ -1,0 +1,71 @@
+﻿@model BookShop.Models.ViewModel.BookVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>@(Model.Book.Id != 0 ? "Update" : "Create")</h1>
+<div class="row">
+    <form asp-action="Upsert" method="post" enctype="multipart/form-data">
+        @* ModelOnly: show errors when only having errors with Model *@
+        @* All: show all errors (include errors when checking in controller) *@
+        <input asp-for="Book.Id" hidden />
+        <input asp-for="Book.ImageFileName" hidden /> @* to create input field so controller can get infor of this picture *@
+
+        <div class="row">
+            @if (TempData["msg"] != null)
+            {
+                <span class="text-danger">
+                    @TempData["msg"]
+                </span>
+            }
+            <div class="col-8">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Book.Title" class="control-label"></label>
+                    <input asp-for="Book.Title" class="form-control" />
+                    <span asp-validation-for="Book.Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.AuthorName" class="control-label"></label>
+                    <input asp-for="Book.AuthorName" class="form-control" />
+                    <span asp-validation-for="Book.AuthorName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.Price" class="control-label"></label>
+                    <input asp-for="Book.Price" class="form-control" />
+                    <span asp-validation-for="Book.Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.TotalPages" class="control-label"></label>
+                    <input asp-for="Book.TotalPages" class="form-control" />
+                    <span asp-validation-for="Book.TotalPages" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Book.ImageFileName" class="control-label"></label>
+                    <input name="file" type="file" asp-for="Book.ImageFileName" class="form-control" />
+                    <span asp-validation-for="Book.ImageFileName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Book.GenreID" class="control-label"></label>
+                    <select asp-for="Book.GenreID" asp-items="@Model.GenreList" class="form-select">
+                        <option disabled selected></option>
+                    </select>
+
+                    <span asp-validation-for="Book.Genres.Id" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-3 mb-3">
+                    <button type="submit" class="btn btn-primary mt-3 mb-3">@(Model.Book.Id != 0 ? "Update" : "Create")</button>
+                    <a class="btn btn-primary mt-3 mb-3" asp-action="Index">Back to List</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img style="width:100%" src="@Model.Book.ImageFileName" />
+            </div>
+        
+        
+        </div>
+
+    </form>
+</div>
+

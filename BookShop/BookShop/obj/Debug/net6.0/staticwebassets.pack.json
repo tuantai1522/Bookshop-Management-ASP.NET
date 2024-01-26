@@ -1,0 +1,293 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookShop.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\172fdfe1-4a0b-4ebd-a5ec-29a31c975cd0.webp",
+      "PackagePath": "staticwebassets\\images\\Book\\172fdfe1-4a0b-4ebd-a5ec-29a31c975cd0.webp"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\32d60648-3e35-4c30-baaf-155e64552f42.jpg",
+      "PackagePath": "staticwebassets\\images\\Book\\32d60648-3e35-4c30-baaf-155e64552f42.jpg"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\69b73bad-a244-4684-936e-8ffbd44c8c1f.webp",
+      "PackagePath": "staticwebassets\\images\\Book\\69b73bad-a244-4684-936e-8ffbd44c8c1f.webp"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\6acba05d-5ba1-4972-80ea-20524dcfc627.webp",
+      "PackagePath": "staticwebassets\\images\\Book\\6acba05d-5ba1-4972-80ea-20524dcfc627.webp"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\897b3dca-dfe5-4911-940a-c66aed4068e8.webp",
+      "PackagePath": "staticwebassets\\images\\Book\\897b3dca-dfe5-4911-940a-c66aed4068e8.webp"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\images\\Book\\d6fc0a09-1f57-4b0b-b0c7-2a1e3f9dae57.webp",
+      "PackagePath": "staticwebassets\\images\\Book\\d6fc0a09-1f57-4b0b-b0c7-2a1e3f9dae57.webp"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\js\\Actions\\cart.js",
+      "PackagePath": "staticwebassets\\js\\Actions\\cart.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Repiratory Github\\Bookshop-Management-ASP.NET\\BookShop\\BookShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BookShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BookShop.props",
+      "PackagePath": "build\\BookShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShop.props",
+      "PackagePath": "buildMultiTargeting\\BookShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BookShop.props",
+      "PackagePath": "buildTransitive\\BookShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

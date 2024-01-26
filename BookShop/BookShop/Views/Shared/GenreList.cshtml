@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BookShop.Models.Domain.Genre>
+
+
+<div class="col-3 p-3 bg-white border-dark rounded rounded-3 h-25">
+    <h4>Danh mục</h4>
+    <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block sidebar h-100 d-inline-block w-100">
+        <div class="position-sticky">
+            <ul class="nav flex-column">
+                @if (Model != null && Model.Count() > 0)
+                {
+                    @foreach (var item in Model)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link link-opacity-50-hover" href="/Home/GetBooksByGenreID/@item.Id">
+                                @item.GenreName
+                            </a>
+                        </li>
+                    }
+                }
+
+
+
+            </ul>
+        </div>
+    </nav>
+</div>
+

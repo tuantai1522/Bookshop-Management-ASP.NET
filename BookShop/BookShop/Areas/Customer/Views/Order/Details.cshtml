@@ -1,0 +1,69 @@
+﻿@using System.Globalization;
+@model List<BookShop.Models.ViewModel.OrderVM>
+
+@{
+    CultureInfo culture = new CultureInfo("vi-VN");
+
+    ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid">
+    @foreach (var item in Model)
+    {
+        <div class="container">
+            <!-- Title -->
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <h2 class="h5 mb-0"><a href="#" class="text-muted"></a> Order #@item.OrderId</h2>
+            </div>
+
+
+            <!-- Main content -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Details -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="mb-3 d-flex justify-content-between">
+                                <div>
+                                    <span class="me-3">@item.OrderDate.ToString("yyyy-MM-dd")</span>
+                                    <span class="me-3">#@item.OrderId</span>
+                                    <span class="badge rounded-pill bg-info">DONE</span>
+                                </div>
+                            </div>
+                            <table class="table table-borderless">
+                                @foreach (var orderDetail in item.orderDetails)
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex mb-2">
+                                                    <div class="flex-shrink-0">
+                                                        <img src="@orderDetail.Book.ImageFileName" alt="" width="35" class="img-fluid">
+                                                    </div>
+                                                    <div class="flex-lg-grow-1 ms-3">
+                                                        <h6 class="small mb-0"><a href="#" class="text-reset">@orderDetail.Book.Title</a></h6>
+                                                        <span class="small">@orderDetail.Book.AuthorName</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>@orderDetail.Book.Price.ToString("c", culture) <span class="text-muted">&nbsp;x&nbsp;</span> @orderDetail.Count</td>
+                                            <td class="text-end">@orderDetail.Price.ToString("c", culture)</td>
+                                        </tr>
+                                    </tbody>
+                                }
+                                <tfoot>
+                                    <tr class="fw-bold">
+                                        <td colspan="2">TOTAL</td>
+                                        <td class="text-end">@item.TotalPrice.ToString("c", culture)</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+

@@ -1,0 +1,15 @@
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.AssemblyInfoInputs.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.AssemblyInfo.cs
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.CoreCompileInputs.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.AssemblyReference.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.deps.json
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.DataAccess.pdb
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Models.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\bin\Debug\net6.0\BookShop.Models.pdb
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.csproj.CopyComplete
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\refint\BookShop.DataAccess.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\BookShop.DataAccess.pdb
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.DataAccess\obj\Debug\net6.0\ref\BookShop.DataAccess.dll

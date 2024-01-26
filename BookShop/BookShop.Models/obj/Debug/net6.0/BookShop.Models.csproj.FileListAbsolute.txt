@@ -1,0 +1,12 @@
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.AssemblyInfoInputs.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.AssemblyInfo.cs
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.csproj.CoreCompileInputs.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\bin\Debug\net6.0\BookShop.Models.deps.json
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\bin\Debug\net6.0\BookShop.Models.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\bin\Debug\net6.0\BookShop.Models.pdb
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.csproj.AssemblyReference.cache
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\refint\BookShop.Models.dll
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\BookShop.Models.pdb
+D:\Repiratory Github\Bookshop-Management-ASP.NET\BookShop\BookShop.Models\obj\Debug\net6.0\ref\BookShop.Models.dll

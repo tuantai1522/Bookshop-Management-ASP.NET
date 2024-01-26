@@ -1,0 +1,100 @@
+﻿@using System.Globalization;
+@model BookShop.Models.ViewModel.ShoppingCartVM
+@{
+    CultureInfo culture = new CultureInfo("vi-VN");
+
+    ViewData["Title"] = "Details";
+}
+
+<div class="row d-flex justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0">
+                <div class="row">
+                    <div class="col-6 pt-2">
+                        <i class="bi bi-cart"></i> &nbsp;
+                        Shopping Cart
+                    </div>
+                    <div class="col-6 text-end">
+                        <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-outline-info btn-sm">Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body">
+                @foreach (var item in Model.ShoppingCarts)
+                {
+                    <div class="row parent-row">
+                        <div class="col-md-2">
+                            <img src="@item.Book.ImageFileName" class="rounded w-100" />
+
+                        </div>
+                        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+                            <h5><strong>@item.Book.Title</strong></h5>
+                            <h5>@item.Book.AuthorName</h5>
+                            <div>
+                                @item.Book.Price.ToString("c", culture)
+                                <span class="text-muted">&nbsp;x&nbsp;</span>
+                                <span class="total_quantity" data-book-id="@item.Book.Id">@item.Count</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex flex-column align-items-between justify-content-center">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h6>
+                                        <strong>
+                                            @{
+                                                var price = item.Book.Price * item.Count;
+                                            }
+                                            @price.ToString("c", culture)
+                                        </strong>
+                                    </h6>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="w-75 btn-group" role="group">
+                                        <a onclick="removeFromCart(event, @item.Book.Id, 0)" class="btn btn-primary">
+                                            <i class="bi bi-dash"></i>
+                                        </a>
+                                        <a onclick="addToCart(event, @item.Book.Id)" class="btn btn-warning">
+                                            <i class="bi bi-plus"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-2">
+                                    <a onclick="removeFromCart(event, @item.Book.Id, @item.Count)" class="btn btn-danger">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                    </div>
+                }
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <span class="text-info"> Total (VND)</span>
+                                <strong class="text-info"><span class="total_price">@Model.Order.Total.ToString("c", culture)</span></strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+                <div class="card-footer row">
+                    <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
+                        <a asp-area="Customer" asp-controller="Order" asp-action="Summary" class="btn btn-success form-control">Summary</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/js/Actions/cart.js" asp-append-version="true"></script>

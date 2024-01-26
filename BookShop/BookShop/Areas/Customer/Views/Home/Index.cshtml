@@ -1,0 +1,60 @@
+﻿@model BookShop.Models.ViewModel.CustomerVM
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    PagedListRenderOptions options = new PagedListRenderOptions
+            {
+                LiElementClasses = new[] { "page-item" },
+                UlElementClasses = new[] { "pagination", "justify-content-center" },
+                PageClasses = new[] { "page-link" },
+                MaximumPageNumbersToDisplay = 3 // Số lượng trang hiển thị trên thanh phân trang
+            };
+}
+<h1 class="display-4 text-center mt-3">Welcome to my book store online</h1>
+
+<div class="row mt-4 gap-2">
+    <partial name="GenreList" model="Model.GenreList" />
+    <div class="col-8 p-3 bg-white border-dark rounded rounded-3">
+        <div class="text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                @if (Model.BookList != null && Model.BookList.Count() > 0)
+                {
+                    @foreach (var item in Model.BookList)
+                    {
+                        <div class="col d-flex justify-content-center align-items-center">
+                            <div class="card" style="width: 14rem;">
+                                <img src="@item.ImageFileName" class="card-img-top" alt="@item.Title">
+                                <div class="card-body">
+                                    <h5 class="card-title">@item.Title</h5>
+                                    <p class="card-text">@item.AuthorName</p>
+                                    <p class="card-text">@item.Price</p>
+                                    <a href="#" onclick="addToCart(event, @item.Id)" class="btn btn-primary">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+
+            </div>
+        </div>
+    </div>
+    <div class="col-3"></div>
+    <div class="col-8 text-center">
+        @if (Model.BookList != null && Model.BookList.Count() > 0)
+        {
+            @Html.PagedListPager((IPagedList)Model.BookList, page => Url.Action("Index", "Home",
+        new { Page = page }), options)
+        }
+    </div>
+
+</div>
+<script src="~/js/Actions/cart.js" asp-append-version="true"></script>
+
+
+
+

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BookShop.Models.Domain.Genre>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List genres</h1>
+
+<p>
+    <button class="btn btn-primary">
+        
+        <a class="text-light text-decoration-none" asp-area="Admin" asp-controller="Genre" asp-action="Add">Create new genre</a>
+    </button>
+</p>
+<div class="d-flex align-items-center justify-content-center">
+    <table class="table table-striped table-bordered table-hover table-secondary w-50 text-center">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.GenreName)
+                </th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GenreName)
+                    </td>
+                    <td>
+                        <button class="btn btn-success">
+                            <a class="text-decoration-none text-light" asp-area="Admin" asp-controller="Genre" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                        </button>
+                        <button class="btn btn-secondary">
+                            <a class="text-decoration-none text-light" asp-area="Admin" asp-controller="Genre" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        </button>
+                        <button class="btn btn-danger">
+                            <a class="text-decoration-none text-light" asp-area="Admin" asp-controller="Genre" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        </button>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
